@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* HEADER--STYLE */
+header{
+    padding-top: 56px;
+}
+.header__container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heafer__logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor:pointer;
+}
+.header__logo__p{
+    font: 500 20px 'Rubik';
+    color: #0B132A;
+}
+.header__logo__span{
+    font: 700 20px 'Rubik';
+    color: #0B132A;
+}
+.header__list{
+    display: flex;
+    gap: 40px;
+
+}
+.header__list__li{
+    font: 400px 16px 'Rubik';
+    color: #4F5665;
+    cursor: pointer;
+}
+.haeder__reg{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.haeder__reg__p{
+    font: 500px 16px 'Rubik';
+    color: #0B132A;
+    cursor: pointer;
+}
+.haeder__reg__btn{
+    width: 150px;
+    height: 45px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1px solid #F53855;
+    background: transparent;
+    cursor: pointer;
+}
+
+/* SECTION-ONE-STYLE */
+.secrion__one{
+    margin: 129px auto;
+    display: flex;
+    justify-content: center;
+}
+.secrion__one__container{
+    width: 1200px; 
+    display: flex;
+    gap: 55px;
+}
+.vpn__des__h2{
+    font: 400 50px/70px 'Rubik';
+    color: #0B132A;
+}
+.vpn__des__h2__span{
+    font: 700 50px/70px 'Rubik';
+    color: #0B132A;
+}
+.vpn__des__p{
+    font: 400 16px/30px 'Rubik';
+    color: #4F5665;
+    margin-top: 20px;
+}
+.vpn__des__p__span{
+    font: 500 16px/30px 'Rubik';
+    color: #4F5665;
+}
+.vpn__btns{
+    position: relative;
+}
+.vpn__des__btn{
+    width: 250px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #F53838;
+    border: none;
+    font: 700 16px/25px 'Rubik';
+    color: white;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.div{
+    width: 211.829px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: rgba(245, 56, 56, 0.35);
+    filter: blur(27px);
+    position: absolute;
+    bottom: 2px;
+    left: 20px;
+}
+.wooman__png{
+    width: 611.241px;
+    height: 382.444px;
+    margin-top: -40px;
+}
+
+/* SECTION-TWO-STYLE */
+.secrion__two__container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.div__boxes{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+.div__box{
+    width: 1140px;
+    height: 200px;
+    border-radius: 10px;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.div__box2{
+    position: absolute;
+    top: 10px;
+    width: 1068.842px;
+    height: 189.218px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    opacity: 0.06;
+    background: #0D1025;
+    filter: blur(57px);
+}
+.box__user{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.box__user__p{
+    font: 700 25px/30px 'Rubik';
+    color: #0B132A;
+}
+.box__user__p__span{
+    font: 400 20px/30px 'Rubik';
+    color: #4F5665;
+}
+.description{
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 63px;
+}
+.title__use{
+    font: 500 35px/50px 'Rubik';
+    color: #0B132A;
+}
+.title__can{
+    font: 400 16px/30px 'Rubik';
+    color: #4F5665;
+    margin-top: 20px;
+}
+.dic__check__dox{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 23px;
+}
+.check__p{
+    font: 400 14px/30px 'Rubik';
+    color: #4F5665;
+}
+
+/* SECTION-THRE-STYLE */
+
+.section__thre{
+    background: linear-gradient(180deg, #F8F8F8 -45.04%, rgba(248, 248, 248, 0.00) 88.56%);
+}
+.section__thre__container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.sec__there__title{
+   padding-top: 80px;
+   text-align: center;
+}
+
+.plan{
+    font: 500 35px/50px 'Rubik';
+    color: #0B132A;
+}
+.let{
+    font: 400 16px/30px 'Rubik';
+    color: #4F5665;
+    margin-top: 20px;
+}
+.cards{
+    margin-top: 60px;
+    display: flex;
+    gap: 50px;
+    margin-left: 100px;
+}
+.card{
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.card3{
+    width: 330px;
+    height: 760px;
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background: #FFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.free__png{
+    width: 144.904px;
+    height: 165.374px;
+    margin-top: 79px;
+}
+.card__div{
+    margin-top:30px ;
+    text-align: center;
+}
+.card__div__p{
+    font: 500 18px/30px 'Rubik';
+    color: #0B132A;
+}
+.card__check{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+.card__btns{
+    margin-top: 130px;
+    text-align: center;
+}
+.card__btns2{
+    margin-top: 100px;
+    text-align: center;
+}
+.card__btns3{
+    margin-top: 65px;
+    text-align: center;
+}
+
+.card__btns__p{
+    font: 500 25px/30px 'Rubik';
+    color: #0B132A;
+}
+.card__btns__p__span{
+    font: 400 25px/30px 'Rubik';
+    color: #4F5665;
+}
+.card__btn{
+    width: 177.876px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    background: transparent;
+    margin-top: 20px;
+    font: 700 16px/30px 'Rubik';
+    color: #F53838;
+    cursor: pointer;
+}
+.card__btn3{
+    width: 177.876px;
+    height: 45px;
+    border-radius: 50px;
+    border: 2px solid #F53838;
+    background: #F53838;
+    margin-top: 20px;
+    font: 700 16px/30px 'Rubik';
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* SECTION-FOUR-STYLE */
+
+.sec__four__container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.sec__four__title{
+    margin-top: 150px;
+    text-align: center;
+}
+.title__huge{
+    font: 500 35px/50px 'Rubik';
+    color: #0B132A;
+}
+.title__see{
+    font: 400 16px/30px 'Rubik';
+    color: #4F5665;
+}
+.title__see__span{
+    font: 500 16px/30px 'Rubik';
+    color: #4F5665;
+}
+.map__png{
+    width: 1060px;
+    height: 537.771px;
+    margin-top: 155px;
+    cursor: pointer;
+}
+.rec__icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 109px;
+}
