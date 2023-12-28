@@ -292,6 +292,10 @@ header{
     color: #F53838;
     cursor: pointer;
 }
+.card__btn:hover{
+    background: #F53838;
+    color: #FFF;
+}
 .card__btn3{
     width: 177.876px;
     height: 45px;
@@ -337,4 +341,215 @@ header{
     align-items: center;
     justify-content: space-between;
     margin-top: 109px;
+}
+
+/* SECTION-FIVE-STYLE */
+.section__five{
+    background: #FFF;
+}
+.sec__five__container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.sec__five__title{
+    text-align: center;
+    margin-top: 124px;
+}
+.five__title1{
+    font: 500 35px/50px 'Rubik';
+    color: #0B132A;
+}
+.five__title2{
+    font: 400 16px/30px 'Rubik';
+    color: #4F5665;
+    margin-top: 20px;
+}
+.comments__cards{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.comment__card{
+    width: 400px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #F53838;
+    background: #FFF;
+}
+.comment__card2{
+    width: 400px;
+    height: 230px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #DDD;
+    background: #FFF;
+}
+.comment__card__img{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+.comment__card__name{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.comment__card__name_p{
+    font: 500 18px/30px 'Rubik';
+    color: #0B132A;
+}
+.comment__card__name_p_span{
+    font: 400 14px/30px 'Rubik';
+    color: #4F5665;
+    margin-top: -10px;
+}
+.comment__card__star{
+    display: flex;
+    gap: 10px;
+}
+.comment__card__star_p{
+    font: 400 16px/30px 'Rubik';
+    color: #0B132A;
+}
+.comment__card__des{
+   display: flex;
+   justify-content: center;
+   margin-top: -15px;
+}
+.comment__card__des__p{
+    font: 400 16px/30px 'Rubik';
+    color: #0B132A;
+}
+.sec__five__line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 82px;
+}
+.line__circles{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.circl_1{
+    width: 40px;
+    height: 15px;
+    border-radius: 50px;
+    background: #F53838;
+}
+.circl__2{
+    width: 15px;
+    height: 15px;
+    background: #DDE0E4;
+    border-radius: 50%;
+}
+.five__line__btns{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+
+}
+.line__btns__prev{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #F53838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.line__btns__next{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #F53838;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* HEADER--STYLE */
+footer{
+    background:  #F8F8F8;
+    margin-top: 181px;
+    padding: 180px 147px;
+}
+.footer__container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer__logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header__logo__p{
+    font: 500 20px 'Rubik';
+    color: #0B132A;
+}
+.header__logo__p__span{
+    font: 700 20px 'Rubik';
+    color: #0B132A;
+}
+.footer__vpn__span{
+    font: 500 16px/30px 'Rubik' ;
+    color: #4F5665;
+}
+.footer__vpn{
+    font: 400 16px/30px 'Rubik' ;
+    color: #4F5665;
+    margin-top: 26px;
+}
+.footer__icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: -20px;
+}
+.footer20{
+    font: 400 16px/30px 'Rubik' ;
+    color: #4F5665; 
+    margin-top: 30px;
+}
+.footer20__span{
+    font: 500 16px/30px 'Rubik' ;
+    color: #4F5665;
+}
+.footer__title{
+    display: flex;
+    justify-content: center;
+    gap: 183px;
+}
+.footer__title__uls1{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+}
+.title__uls1__product{
+    display: flex;
+    flex-direction: column;
+}
+.title__uls1__act{
+    margin-bottom: 20px;
+    font: 500 18px/30px 'Rubik';
+    color: #0B132A;
+    cursor: pointer;
+}
+.title__uls1__li{
+    font: 400 16px/30px 'Rubik' ;
+    color: #4F5665; 
+    margin-bottom: 10px;
+    cursor: pointer;
 }
