@@ -41,6 +41,10 @@ header{
     color: #4F5665;
     cursor: pointer;
 }
+.header__list__li:hover {
+    color: #3498db; 
+    transition: color 0.3s ease; 
+  }
 .haeder__reg{
     display: flex;
     align-items: center;
@@ -60,6 +64,11 @@ header{
     background: transparent;
     cursor: pointer;
 }
+.haeder__reg__btn:hover{
+    background: #F53838;
+    color: #FFF;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+  }
 
 /* SECTION-ONE-STYLE */
 .secrion__one{
@@ -295,6 +304,7 @@ header{
 .card__btn:hover{
     background: #F53838;
     color: #FFF;
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 .card__btn3{
     width: 177.876px;
@@ -476,11 +486,12 @@ header{
     cursor: pointer;
 }
 
-/* HEADER--STYLE */
+/* FOOTER--STYLE */
 footer{
     background:  #F8F8F8;
     margin-top: 181px;
     padding: 180px 147px;
+    position: relative;
 }
 .footer__container{
     width: 1200px;
@@ -488,6 +499,26 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.footer__contend{
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    background: #FFF;
+    position: absolute;
+    top: -95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+}
+.fooret__contend__title__p{
+    font: 500 35px/45px 'Rubik';
+    color: #0B132A;
+}
+.fooret__contend__title__p2{
+    font: 400 16px/30px 'Rubik';
+    color: #4F5665;
 }
 .footer__logo{
     display: flex;
@@ -552,4 +583,8 @@ footer{
     color: #4F5665; 
     margin-bottom: 10px;
     cursor: pointer;
+}
+.title__uls1__li:hover {
+  font-size: 1.2em; 
+  transition: font-size 0.3s ease; 
 }
